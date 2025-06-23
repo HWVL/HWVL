@@ -74,14 +74,3 @@ def HWVL(text="",l=32):
 
             
     return output_text
-
-if __name__ == "__main__":
-    while True:
-        text=input(">>>")
-        if text=="exit":
-            break
-        elif text=="cls":
-            clear_console()
-        elif text!="":
-            Hash=HWVL(text)
-            print(Hash)
