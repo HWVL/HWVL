@@ -1,0 +1,58 @@
+HWVL1 - Avalanche: 27.53%, Entropy: 3.40, Max Run: 5.97, Time: 0.000419s
+HWVL2 - Avalanche: 42.18%, Entropy: 4.65, Max Run: 6.26, Time: 0.008819s
+MD5 - Avalanche: 33.03%, Entropy: 3.61, Max Run: 5.64, Time: 0.000005s
+SHA1 - Avalanche: 32.97%, Entropy: 3.70, Max Run: 5.79, Time: 0.000004s
+SHA224 - Avalanche: 33.10%, Entropy: 3.79, Max Run: 5.84, Time: 0.000006s
+SHA256 - Avalanche: 33.18%, Entropy: 3.82, Max Run: 5.92, Time: 0.000005s
+SHA384 - Avalanche: 33.07%, Entropy: 3.88, Max Run: 5.97, Time: 0.000005s
+SHA512 - Avalanche: 33.02%, Entropy: 3.91, Max Run: 6.00, Time: 0.000006s
+BLAKE2b - Avalanche: 32.97%, Entropy: 3.91, Max Run: 5.99, Time: 0.000003s
+BLAKE2s - Avalanche: 33.03%, Entropy: 3.82, Max Run: 5.91, Time: 0.000003s
+SHA3_224 - Avalanche: 33.05%, Entropy: 3.79, Max Run: 5.87, Time: 0.000006s
+SHA3_256 - Avalanche: 33.03%, Entropy: 3.82, Max Run: 5.91, Time: 0.000005s
+SHA3_384 - Avalanche: 32.93%, Entropy: 3.89, Max Run: 5.96, Time: 0.000005s
+SHA3_512 - Avalanche: 32.98%, Entropy: 3.91, Max Run: 5.99, Time: 0.000006s
+
+--- Security Tests (10000 tries) ---
+Collision HWVL1: False
+Preimage HWVL1: False
+Second Preimage HWVL1: False
+Collision HWVL2: False
+Preimage HWVL2: False
+Second Preimage HWVL2: False
+Collision MD5: False
+Preimage MD5: False
+Second Preimage MD5: False
+Collision SHA1: False
+Preimage SHA1: False
+Second Preimage SHA1: False
+Collision SHA224: False
+Preimage SHA224: False
+Second Preimage SHA224: False
+Collision SHA256: False
+Preimage SHA256: False
+Second Preimage SHA256: False
+Collision SHA384: False
+Preimage SHA384: False
+Second Preimage SHA384: False
+Collision SHA512: False
+Preimage SHA512: False
+Second Preimage SHA512: False
+Collision BLAKE2b: False
+Preimage BLAKE2b: False
+Second Preimage BLAKE2b: False
+Collision BLAKE2s: False
+Preimage BLAKE2s: False
+Second Preimage BLAKE2s: False
+Collision SHA3_224: False
+Preimage SHA3_224: False
+Second Preimage SHA3_224: False
+Collision SHA3_256: False
+Preimage SHA3_256: False
+Second Preimage SHA3_256: False
+Collision SHA3_384: False
+Preimage SHA3_384: False
+Second Preimage SHA3_384: False
+Collision SHA3_512: False
+Preimage SHA3_512: False
+Second Preimage SHA3_512: False

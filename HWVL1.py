@@ -1,12 +1,3 @@
-from os import system, name
-
-def clear_console():
-
-    if name == 'nt':
-        system('cls')
-    else:
-        system('clear')
-        
 def string_to_int(char):
     return ord(char)
 

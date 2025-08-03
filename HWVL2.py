@@ -24,5 +24,5 @@ def HWVL(text="" , output_len=32):
       for i in range(len(my_ord)-1):
         output+=chr(33+((my_ord[i]*my_ord[i+1])%94))
       output+=chr(33+((my_ord[0]*my_ord[1]//my_ord[-1])%94))
- 
+
   return "".join(chr(33+(sum(ord(output[i*output_len:(i+1)*output_len][j]) for i in range(len(output)//output_len))%94)) for j in range(output_len))
